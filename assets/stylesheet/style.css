@@ -187,7 +187,8 @@ body, html{
 
 /* Middle content */
 .middle{
-
+	font-family: "Titillium Web", sans-serif;
+	color:#fff;
 }
 .middle .img-wrapper{
 	box-sizing: border-box;
@@ -195,10 +196,61 @@ body, html{
 	position: relative;
 	max-height: 300px;
 	overflow: hidden;
+	z-index: 0;
 }
 .middle .img-wrapper img{
 	width: 100%; 
 	height: 100%;
+}
+.middle .img-wrapper .overlay{
+	background-color: rgba(0,0,0,0.4);
+	position: absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	content: '';
+	z-index: 1;
+}
+.middle .img-wrapper span.live{
+	background-color: #FF0000 ;
+	color:#fff;
+	font-weight: 400;
+	text-align: center;
+	border-radius: 5px;
+	position: absolute;
+	top:15px;
+	left:15px;
+	z-index: 2;
+	padding: 10px 20px;
+		-webkit-box-shadow: 3px 6px 5px 0px rgba(0,0,0,0.25);
+	-moz-box-shadow: 3px 6px 5px 0px rgba(0,0,0,0.25);
+	box-shadow: 3px 6px 5px 0px rgba(0,0,0,0.25);	
+}
+.middle .img-wrapper span.play-btn{
+	position: absolute;
+	z-index: 2;
+	width: 50px;
+	height: 50px;
+	top: 50%;
+	margin-top: -25px;
+	left: 50%;
+	margin-left: -25px;
+	text-align: center;
+}
+.middle .img-wrapper span.play-btn i{
+	font-size: 5rem;
+	color:#fff;
+}
+.middle h3{
+	margin-top: 0px;
+	margin-bottom: 20px;
+	font-size: 1.834rem;
+}
+.middle p{
+	font-size: 1rem;
+	font-weight: 400;
+	margin:0px;
 }
 /* @media */
 
