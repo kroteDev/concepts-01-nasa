@@ -98,7 +98,7 @@ body, html{
 	vertical-align: top;
 }
 .main-header nav ul li.search-form button[type=submit] i{
-	font-size: 1.4rem;	
+	font-size: 1.4rem;		
 }
 
 /* Main content */
@@ -124,19 +124,19 @@ body, html{
 	font-size: 2.063rem;
 }
 .sidebar-left, .sidebar-right{
-	width:25%;	
+	width:22%;	
 	box-sizing: border-box;	
 }
 .sidebar-left{
-	padding-right: 20px;
+	padding-right: 25px;
 }
 .sidebar-right{
-	padding-left: 20px;
+	padding-left: 25px;
 }
 .middle{
-	width:50%;
-	padding-left:20px;
-	padding-right: 20px;
+	width:56%;
+	padding-left:25px;
+	padding-right: 25px;
 	box-sizing: border-box;
 }
 /* Left sidebar stories */
@@ -146,7 +146,7 @@ body, html{
 }
 .sidebar-left ul li{
 	list-style: none;
-	margin-bottom: 25px;
+	margin-bottom: 35px;
 }
 .sidebar-left ul li:last-child{
 	margin-bottom: 0px;
@@ -161,7 +161,7 @@ body, html{
 	box-shadow: 3px 6px 5px 0px rgba(0,0,0,0.25);
 }
 .sidebar-left ul li figure .img-wrapper{
-	max-height: 135px;
+	max-height: 190px;
 	overflow: hidden; 
 }
 .sidebar-left ul li figure img{
@@ -169,7 +169,8 @@ body, html{
 }
 .sidebar-left ul li figure figcaption{
 	padding: 10px;
-	background-color: rgba(57, 113, 158, 0.9);
+	background-color: rgba(32, 91, 168, 0.8);
+	/*205BA8*/
 	color:#fff;
 	font-family: 'Titillium Web', sans-serif;
 	position: absolute;
@@ -194,13 +195,15 @@ body, html{
 	box-sizing: border-box;
 	width: 100%;
 	position: relative;
-	max-height: 300px;
+	max-height: 450px;
 	overflow: hidden;
 	z-index: 0;
+	margin-bottom: 20px;
 }
 .middle .img-wrapper img{
 	width: 100%; 
 	height: 100%;
+	margin-top: -8%;
 }
 .middle .img-wrapper .overlay{
 	background-color: rgba(0,0,0,0.4);
@@ -213,7 +216,7 @@ body, html{
 	z-index: 1;
 }
 .middle .img-wrapper span.live{
-	background-color: #FF0000 ;
+	background-color: #fc3309 ;
 	color:#fff;
 	font-weight: 400;
 	text-align: center;
@@ -222,7 +225,7 @@ body, html{
 	top:15px;
 	left:15px;
 	z-index: 2;
-	padding: 10px 20px;
+	padding: 7px 20px;
 		-webkit-box-shadow: 3px 6px 5px 0px rgba(0,0,0,0.25);
 	-moz-box-shadow: 3px 6px 5px 0px rgba(0,0,0,0.25);
 	box-shadow: 3px 6px 5px 0px rgba(0,0,0,0.25);	
@@ -230,28 +233,115 @@ body, html{
 .middle .img-wrapper span.play-btn{
 	position: absolute;
 	z-index: 2;
-	width: 50px;
-	height: 50px;
+	width: 90px;
+	height: 90px;
 	top: 50%;
-	margin-top: -25px;
+	margin-top: -45px;
 	left: 50%;
-	margin-left: -25px;
+	margin-left: -45px;
 	text-align: center;
 }
 .middle .img-wrapper span.play-btn i{
-	font-size: 5rem;
+	font-size: 6rem;
 	color:#fff;
 }
 .middle h3{
 	margin-top: 0px;
 	margin-bottom: 20px;
-	font-size: 1.834rem;
+	font-size: 1.484rem;
+	line-height: 1.8rem;
 }
 .middle p{
-	font-size: 1rem;
+	font-size: 1.1rem;
 	font-weight: 400;
 	margin:0px;
 }
+
+/* Sidebar Right */
+.news-events-wrapper{
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	-webkit-box-shadow: 3px 6px 5px 0px rgba(0,0,0,0.25);
+	-moz-box-shadow: 3px 6px 5px 0px rgba(0,0,0,0.25);
+	box-shadow: 3px 6px 5px 0px rgba(0,0,0,0.25);	
+}
+nav.tab-switch{
+	position: relative;
+	background-color: #fff;	
+}
+nav.tab-switch ul{
+	margin:0px;
+	padding:0px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+nav.tab-switch ul li{
+	width: 50%;
+	box-sizing: border-box;
+	font-family: 'Titillium Web',sans-serif;
+	font-size: 1.8rem;
+	padding: 20px; 
+	color: #fff;
+	list-style: none;
+	background-color: #205BA8;
+	text-align: center;
+}
+nav.tab-switch ul li a{
+	text-decoration: none;
+	color:#fff;
+}
+nav.tab-switch ul li a:hover{
+	text-decoration: underline;
+}
+nav.tab-switch ul li.active{
+	background-color: #fff;
+}
+nav.tab-switch ul li.active a{
+	color: #205BA8;		
+}
+div.news-wrapper{
+	background-color: #fff;
+}
+div.news-wrapper ul{
+	margin:0px;
+	padding: 30px 15px;
+
+}
+div.news-wrapper ul li{
+	list-style: none;
+	margin-bottom: 30px;
+}
+div.news-wrapper ul li:last-child{
+	margin-bottom: none;
+}
+div.news-wrapper ul li a{
+	color: #205BA8;
+	text-decoration: none;
+	font-family: 'Titillium Web', sans-serif;
+	margin-bottom: 15px;
+	display: block;
+}
+div.news-wrapper ul li a:hover{
+	text-decoration: underline;
+}
+div.news-wrapper ul li i{
+	margin-right: 10px;
+}
+div.news-wrapper ul li .share-time{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	color:#a3a4a6;
+	font-family: 'Titillium Web', sans-serif;
+	font-style: italic;
+}
+div.news-wrapper ul li .share-time span{
+	width: 50%;
+}
+
+
 /* @media */
 
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
