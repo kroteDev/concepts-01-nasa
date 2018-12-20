@@ -121,22 +121,22 @@ body, html{
 	font-weight: 600;
 	margin:0px;
 	color: #fff;
-	font-size: 2.063rem;
+	font-size: 34px;
 }
 .sidebar-left, .sidebar-right{
-	width:22%;	
+	width:24%;	
 	box-sizing: border-box;	
 }
 .sidebar-left{
-	padding-right: 25px;
+	padding-right: 45px;
 }
 .sidebar-right{
-	padding-left: 25px;
+	padding-left: 45px;
 }
 .middle{
-	width:56%;
-	padding-left:25px;
-	padding-right: 25px;
+	width:52%;
+	padding-left:40px;
+	padding-right: 40px;
 	box-sizing: border-box;
 }
 /* Left sidebar stories */
@@ -144,7 +144,7 @@ body, html{
 	padding: 0px;
 	margin:0px;
 }
-.sidebar-left ul li{
+.sidebar-left ul li.storie{
 	list-style: none;
 	margin-bottom: 35px;
 }
@@ -169,7 +169,7 @@ body, html{
 }
 .sidebar-left ul li figure figcaption{
 	padding: 10px;
-	background-color: rgba(32, 91, 168, 0.8);
+	background-color: rgba(32, 91, 168, 0.85);
 	/*205BA8*/
 	color:#fff;
 	font-family: 'Titillium Web', sans-serif;
@@ -182,7 +182,7 @@ body, html{
 
 .sidebar-left ul li figure figcaption h3{
 	margin: 0px;
-	font-size: 0.963rem;
+	font-size: 18px;
 	font-weight: 400;
 }
 
@@ -206,7 +206,7 @@ body, html{
 	margin-top: -8%;
 }
 .middle .img-wrapper .overlay{
-	background-color: rgba(0,0,0,0.4);
+	background-color: rgba(0,0,0,0.45);
 	position: absolute;
 	top:0;
 	left:0;
@@ -216,7 +216,7 @@ body, html{
 	z-index: 1;
 }
 .middle .img-wrapper span.live{
-	background-color: #fc3309 ;
+	background-color: #FC3209 ;
 	color:#fff;
 	font-weight: 400;
 	text-align: center;
@@ -225,7 +225,8 @@ body, html{
 	top:15px;
 	left:15px;
 	z-index: 2;
-	padding: 7px 20px;
+	padding: 7px 30px;
+	font-size: 18px;
 		-webkit-box-shadow: 3px 6px 5px 0px rgba(0,0,0,0.25);
 	-moz-box-shadow: 3px 6px 5px 0px rgba(0,0,0,0.25);
 	box-shadow: 3px 6px 5px 0px rgba(0,0,0,0.25);	
@@ -248,11 +249,10 @@ body, html{
 .middle h3{
 	margin-top: 0px;
 	margin-bottom: 20px;
-	font-size: 1.484rem;
-	line-height: 1.8rem;
+	font-size: 24px;
 }
 .middle p{
-	font-size: 1.1rem;
+	font-size: 1rem;
 	font-weight: 400;
 	margin:0px;
 }
@@ -281,8 +281,8 @@ nav.tab-switch ul li{
 	width: 50%;
 	box-sizing: border-box;
 	font-family: 'Titillium Web',sans-serif;
-	font-size: 1.8rem;
-	padding: 20px; 
+	font-size: 33px;
+	padding: 10px 20px; 
 	color: #fff;
 	list-style: none;
 	background-color: #205BA8;
@@ -311,7 +311,7 @@ div.news-wrapper ul{
 }
 div.news-wrapper ul li{
 	list-style: none;
-	margin-bottom: 30px;
+	margin-bottom: 28px;
 }
 div.news-wrapper ul li:last-child{
 	margin-bottom: none;
@@ -322,12 +322,14 @@ div.news-wrapper ul li a{
 	font-family: 'Titillium Web', sans-serif;
 	margin-bottom: 15px;
 	display: block;
+	font-size: 14px;
 }
 div.news-wrapper ul li a:hover{
 	text-decoration: underline;
 }
 div.news-wrapper ul li i{
 	margin-right: 10px;
+	font-size: 13px;
 }
 div.news-wrapper ul li .share-time{
 	display: flex;
